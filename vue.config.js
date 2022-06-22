@@ -1,7 +1,7 @@
 const { defineConfig } = require('@vue/cli-service')
 
 module.exports = defineConfig({
-  publicPath: '/DynamicVitae/',
+  base: '/DynamicVitae/',
   transpileDependencies: [
     'vuetify'
   ]
