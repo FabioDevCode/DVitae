@@ -9,6 +9,6 @@ cd dist
 git init
 git add -add
 git commit -m 'Deployment'
-git push -f git@github.com:fabiodevcode/dynamicvitae.git main:gh-pages
+git subtree push --prefix dist origin gh-pages
 
 cd -
