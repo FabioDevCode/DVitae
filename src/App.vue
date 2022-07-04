@@ -15,7 +15,6 @@
 			<v-list dense nav>
 				<v-list-item v-for="item in items" :key="item.title" :to="item.to" link>
 
-
 				<v-list-item-icon>
 					<v-icon>{{ item.icon }}</v-icon>
 				</v-list-item-icon>
@@ -33,6 +32,7 @@
 			<v-app-bar-nav-icon class="white--text" @click="drawer = !drawer"></v-app-bar-nav-icon>
 
 			<v-toolbar-title>Dynamic Vitae</v-toolbar-title>
+			<img class="img " src="../public/DVLogo.png" alt="Dynamic Vitae Icon">
 		</v-app-bar>
 
 		<v-main>
@@ -58,3 +58,27 @@ export default {
 	}),
 };
 </script>
+
+<style>
+
+	html {
+		overflow: hidden !important;
+		scrollbar-width: none;
+		-ms-overflow-style: none;
+	}
+
+	html::-webkit-scrollbar {
+		width: 0;
+		height: 0;
+	}
+
+	img {
+		position: absolute;
+		right: 0;
+		height: 70%;
+		width: auto;
+		filter: drop-shadow(0px 0px 12px #999);
+		margin: 0 25px;
+	}
+
+</style>
