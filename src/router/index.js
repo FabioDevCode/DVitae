@@ -32,7 +32,7 @@ const routes = [
         component: DocumentS
     },
     {
-        path: '/réglages',
+        path: '/reglages',
         name: 'Réglages',
         component: RéglageS
     }

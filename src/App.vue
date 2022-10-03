@@ -53,7 +53,7 @@ export default {
 			{ title: 'Projets', icon: 'mdi-file-presentation-box', to: '/projets' },
 			{ title: 'Informations', icon: 'mdi-account-box', to: '/informations' },
 			{ title: 'Documents', icon: 'mdi-file-document', to: '/documents' },
-			{ title: 'Réglages', icon: 'mdi-cog', to: '/réglages' },
+			{ title: 'Réglages', icon: 'mdi-cog', to: '/reglages' },
         ],
 	}),
 };
